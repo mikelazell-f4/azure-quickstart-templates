@@ -61,7 +61,7 @@
     "publicIPAddressType": "Dynamic",
     "vmStorageAccountContainerName": "vhds",
     "vmName": "MyDockerCkanVM",
-    "vmSize": "Standard_D1",
+    "vmSize": "Standard_DS3_v2",
     "virtualNetworkName": "MyVNET",
     "nsgID": "[resourceId('Microsoft.Network/networkSecurityGroups',variables('nsgName'))]",
     "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]",
